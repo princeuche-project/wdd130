@@ -1,6 +1,7 @@
 #content{
         max-width: 1600px;
         background-color: steelblue;
+        display: block;
         margin: 0 auto;
 }
 nav a{
@@ -17,7 +18,7 @@ nav a{
 }
 #background{
     height: 725px;
-    background-color: #daf;
+    background-color:  wheat; 
 }
 body{
     background-color: white;
