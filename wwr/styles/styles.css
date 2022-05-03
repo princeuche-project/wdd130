@@ -1,61 +1,163 @@
-#content{
-        max-width: 1600px;
-        background-color: steelblue;
-        display: block;
-        margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+:root{
+    --heading-font: "tapestry";
+    --paragraph-font:
 }
-nav a{
+#content {
+    max-width: 1600px;
+    background-color: steelblue;
+    display: block;
+    margin: 0 auto;
+}
+
+nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
-#hero-msg h1, #hero-msg h4, h4{
+
+#hero-msg h1,
+#hero-msg h4,
+h4 {
     text-align: center;
     color: white;
+    font-family:  'Tapestry', 'cursive';
 }
-.button-box, main section{
+
+.button-box,
+main section {
     text-align: center;
+    box-sizing: border-box;
 }
-#background{
+
+#background {
     height: 725px;
-    background-color:  wheat; 
+    background-color: wheat;
 }
-body{
+
+body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header{
+
+header {
     background-color: rgba(20, 30, 16, .7);
 }
-nav a:hover{
+
+nav a:hover {
     background-color: steelblue;
     color: white;
 }
-.book, .join, .msg, footer{
-    background-color: green;
-    color: blue;
-    text-decoration: none;
-    
-}
-.book:hover, .join:hover{
+
+
+.book:hover,
+.join:hover {
     background-color: red;
     color: white;
 
 }
-.home-tittle{
-    color: black;
+
+.home-tittle {
+    font-family: 'Tapestry', 'cursive';
+    font-size: 2em;
+    margin-top: 10px;
+
 }
-.msg h2, .msg p{
+
+.msg h2 {
     color: white;
+
 }
-footer h3, footer a, footer a:hover{
+
+footer h3,
+footer a,
+footer a:hover {
     color: white;
     text-decoration: none;
 }
-.logo, .icon{
+
+.logo {
     width: 80px;
 }
-#hero-img{
+
+#hero-img {
     width: 100%;
 }
 
+h2 {
+    margin: 0;
+}
 
+#logo-link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+
+.msg p {
+    color: white;
+    font-size: 4em;
+    padding: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+    background-color: green;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.book {
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.join {
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+
+}
+
+.msg {
+    text-decoration: none;
+
+
+}
+
+.river-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapid-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid;
+}
