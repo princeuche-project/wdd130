@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
 
-:root{
+:root {
     --heading-font: "tapestry";
     --paragraph-font:
 }
+
 #content {
     max-width: 1600px;
     background-color: steelblue;
@@ -23,7 +24,7 @@ nav a {
 h4 {
     text-align: center;
     color: white;
-    font-family:  'Tapestry', 'cursive';
+    font-family: 'Tapestry', 'cursive';
 }
 
 .button-box,
@@ -104,7 +105,7 @@ h2 {
 
 .msg p {
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     padding: 15px;
 }
 
