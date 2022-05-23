@@ -99,6 +99,8 @@
   display: grid;
   grid-template-columns: 70px 70px 70px 70px 70px 70px;
   grid-template-rows: 70px 70px 70px 70px 70px 70px ;
+  position: relative;
+  left: 150px;
   height: 400px;
 }
 .red4 {
