@@ -67,7 +67,7 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 80px;
+  grid-column-gap: 20px;
 }
 .red3 {
   width: 100%; 
@@ -76,7 +76,7 @@
   grid-column: 1/3;
 } 
 .green3 {
-  width: 350px; 
+  width: 450px; 
   height: 200px; 
   background-color: green;
 } 
@@ -85,7 +85,7 @@
   height: 200px; 
   background-color: gold;
   margin-left: 300px;
-  padding-left: 200px; 
+  padding-left: 250px; 
 } 
 .blue3 {
   width: 100%;
@@ -97,45 +97,50 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-row: 1fr 1fr;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px 70px 70px 70px ;
   height: 400px;
 }
 .red4 {
-  width: 200px; 
-  height: 450px; 
+  width: 150px; 
+  height: 350px; 
   background-color: red; 
-  grid-row: 1/4;
-  margin-right: 70px;
+  
   
   
   
 } 
 .green4 {
-  width: 100px; 
-  height: 150px; 
+  width: 150px; 
+  height: 110px; 
   background-color: green;
-  position: relative; 
-  right: 290px;
-  padding-left: 300px;
+  grid-column: 3/6;
+  position: relative;
+  padding-top: 15px;
+  padding-right: 50px;
   
+ 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 150px; 
+  width: 150px; 
+  height: 110px; 
   background-color: gold;
-  position: relative; 
-  right: 290px; 
-  padding-left: 300px;
+  grid-column: 3/5;
+  position: relative;
+  top: 55px;
+  padding-top: 15px;
+  padding-right: 50px;
+  
 } 
 .blue4 {
-  width: 100px; 
-  height: 150px; 
+  width: 150px; 
+  height: 100px; 
   background-color: blue;
-  position: relative; 
-  right: 290px;
-  padding-left: 300px;
-  
+  grid-column: 3/5;
+  position: relative;
+  top: 110px;
+  padding-right: 50px;
+ 
 } 
 /* Activity 5 styles */ 
 .content5 {
