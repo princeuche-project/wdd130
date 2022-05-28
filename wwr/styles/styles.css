@@ -186,12 +186,13 @@ footer .social img:hover {
 }
 
 .rivers-card {
-    margin: 200px;
+    width: 330px;
+    margin: 100px auto;
     grid-column: 2/4;
     grid-row: 2/3;
     position: relative;
-    bottom: 50px;
-    right: 80px;
+    top: 50px;
+    left: 30px;
 
 
 }
@@ -202,7 +203,7 @@ footer .social img:hover {
     grid-row: 2/3;
     position: relative;
     bottom: 50px;
-    right: 80px;
+    left: 30px;
 }
 
 .rapid-card {
@@ -211,7 +212,7 @@ footer .social img:hover {
     grid-row: 2/3;
     position: relative;
     bottom: 50px;
-    right: 80px;
+    right: 20px;
 }
 
 .card-img {
@@ -219,7 +220,7 @@ footer .social img:hover {
     width: 100%;
     border: 10px solid #d9c2a3;
     transition: transform.5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 10px 10px 15px #6f7364;
 }
 
 .card-img:hover {
@@ -254,7 +255,7 @@ footer .social img:hover {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px white;
+    box-shadow: 8px 8px 15px white;
     margin-left: 100px;
 }
 
