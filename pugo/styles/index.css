@@ -45,6 +45,10 @@ header {
     grid-template-columns: 150px auto;
     background-color: #0096c7
 }
+#paragraph{
+    margin: 30px;
+    padding: 10px;
+}
 #home-img-main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -209,4 +213,31 @@ footer .social img:hover {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 900px) {
+
+    
+    #img-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    margin: 450px auto;
+    width: 30%;
+    
+}
+}
 
