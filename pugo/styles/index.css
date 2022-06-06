@@ -1,196 +1,212 @@
 body {
-    max-width: 2000px;
+    max-width: 1600px;
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/* Logo designing and padding*/
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo {
-    width: 65px;
-    border: 4px solid #0096c7;
+    width: 80px;
+    border: 4px solid #fbb13c;
 }
 
-.menu-bar {
-
+/* Navigator designing */
+nav a {
     text-align: center;
-    background-color: #0096c7;
-}
-
-.menu-bar ul {
-    display: inline-flex;
-    list-style: none;
     color: white;
-}
-
-.menu-bar ul li {
-    width: 150px;
-    margin: 15px;
-    padding: 15px;
-
-}
-
-.menu-bar ul li a {
     text-decoration: none;
-    color: white;
-    font-style: italic;
-    font-size: 1.5em;
+    padding: 20px;
 }
 
-.active,
-.menu-bar ul li:hover {
-    background: #fbb13c;
-    border-radius: 3px;
-
-}
-
-.paris {
-    width: 1550px;
-    height: 400px;
-    border: 4px solid #0096c7; 
-    display: block;
-    margin: 15px auto;
-    padding: 15px;
-
-
-}
-
-main h1 {
-    margin-right: 200px;
+nav {
+    display: flex;
+    justify-content: space-around;
     background-color: #0096c7;
-
 }
 
-section p {
-    float: left;
-    margin-right: 500px;
-    
-
-}
-
-
-.bag1 {
-    position: relative;
-    bottom: 300px;
-    right: 200px;
-    display: flexbox;
-    float: right;
-    border: 3px solid #073b4c;
-    max-width: 300px;
-}
-.bag1 img{
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-}
-.bag1 p{
-    text-align: center;
-    
-}
-
-.list {
-   
-}
-
-items {
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 500px;
-    grid-template-rows: 150px 150px 150px 150px 150px;
-    
-}
-.card{
-    box-shadow: 0 5px 0 5px #073b4c;
-    border: 3px solid #073b4c;
-    max-width: 300px;
-    position: relative;
-    top: 10px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.card2{
-    box-shadow: 0 5px 0 5px #073b4c;
-    border: 3px solid #073b4c;
-    max-width: 300px;
-    position: relative;
-    bottom: 350px;
-    left: 350px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.card3{
-    box-shadow: 0 5px 0 5px #073b4c;
-    border: 3px solid #073b4c;
-    max-width: 300px;
-    position: relative;
-    bottom: 670px;
-    left: 680px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.card4{
-    box-shadow: 0 5px 0 5px #073b4c;
-    border: 3px solid #073b4c;
-    max-width: 300px;
-    position: relative;
-    bottom: 1040px;
-    left: 1000px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
-
-
-
-   
-
-
-footer p {
+nav a:hover {
+    background-color: #fbb13c;
     color: #073b4c;
-    font-size: 1.5em;
-    text-align: center;
-    position: relative;
-    left: 300px;
 }
 
-footer ul {
+/* The header design*/
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #0096c7
+}
+#home-img-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#home-img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#home-msg {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: center;
+    color: #0096c7;
+    font-size: 1.2em;
+}
+
+/* designing the item-1*/
+.item-1 {
+    max-width: 300px;
+    float: right;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 4px solid #073b4c;
+}
+
+.price {
+    color: #073b4c;
+    font-size: 22px;
+}
+
+.item-1 button {
+    outline: 0;
+    padding: 12px;
+    color: #fbb13c;
     background-color: #073b4c;
     text-align: center;
-    padding: 20px;
-    padding-right: 20px;
-
-
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
 
 }
 
-footer ul li {
-    color: white;
-    font-size: 1.5em;
-    display: inline-flex;
-    text-decoration: none;
-    margin: 20px;
+.item-1 button:hover {
+    opacity: 0.7;
+}
+
+/* designing the card-1 to card-5 */
+#img-grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    margin: 50px auto;
+}
+.card-1{
+    grid-column: 1/3;
     position: relative;
-    left: 350px;
+    bottom: 30px;
 
 }
-footer{
+.card-5 {
+    grid-column: 9/12;
+}
+.card-4{
+    grid-column: 7/9;
+    width: 230px;;
     position: relative;
-    bottom: 1000px;
+    bottom: 100px;
+}
+.card-3{
+    grid-column: 5/7;
+}
+.card-2{
+    grid-column: 3/5;
+    position: relative;
+    bottom: 80px;
+    
 }
 
-footer ul li a {
+
+
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    max-width: 300px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    height: 100px;
+
+}
+
+.card-1 button,
+.card-2 button,
+.card-3 button,
+.card-4 button,
+.card-5 button {
+    outline: 0;
+    padding: 12px;
+    color: #fbb13c;
+    background-color: #073b4c;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 13px;
+}
+
+.card-1 button:hover,
+.card-2 button:hover,
+.card-3 button:hover,
+.card-4 button:hover,
+.card-5 button:hover {
+    opacity: 0.7;
+
+}
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover {
+    opacity: 0.7;
+    
+
+}
+#background{
+    background-color: #fbb13c;
+}
+/* designing the footer*/
+footer {
+    padding: 25px 50px;
+    background-color:#073b4c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    color: #fbb13c
+}
+footer a{
     color: white;
     text-decoration: none;
+    margin: 20px auto;
+    padding: 15px auto;
+}
+footer a:hover{
+    background-color: #fbb13c;
+    color: #0096c7;
 }
 
-footer ul li:hover {
-    opacity: 6.0;
+footer .social img {
+    padding-top: 15px;
+}
+
+footer .social img:hover {
+    opacity: .6;
     transform: scale(1.1);
 }
-footer img{
-    width: 50px;
-}
-footer h2{
-    text-align: center;
-    background-color: #073b4c;
-    font-size: 1.5em;
-    color: white;
-}
+
+
