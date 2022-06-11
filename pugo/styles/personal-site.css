@@ -218,6 +218,13 @@ ul {
     width: 100%;
     font-size: 13px;
 }
+.wireframe{
+    display: block;
+    margin: 0 auto;
+}
+.div p{
+    text-align: center;
+}
 
 /* the footer designing*/
 footer {
