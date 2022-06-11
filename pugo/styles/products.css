@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logo designing and padding*/
+#logo-link {
+    padding-bottom: 20px;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo {
+    width: 60px;
+    border: 4px solid #fbb13c;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+}
+
+/* Navigator designing */
+.active {
+    background-color: #fbb13c;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0096c7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav a:hover {
+    background-color: #fbb13c;
+    color: #073b4c;
+}
+
+.objective {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 25px 50px;
+    background-color: #073b4c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    color: #fbb13c
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+    padding: 15px auto;
+}
+
+footer a:hover {
+    background-color: #fbb13c;
+    color: #0096c7;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer .social img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
