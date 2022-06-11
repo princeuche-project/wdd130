@@ -261,6 +261,8 @@ footer .social img:hover {
     #img-grid {
         display: block;
         height: auto;
+        width: 50%;
+        margin: 500px auto;
     }
 
 
@@ -273,6 +275,34 @@ footer .social img:hover {
 
     }
 
+    .card-1 {
+        position: relative;
+        bottom: 450px;
+    }
+
+    .card-2 {
+        position: relative;
+        
+        left: 20px;
+        top: px;
+
+    }
+
+    .card-3 {
+        position: relative;
+        top: 350px;
+    }
+
+    .card-4 {
+        position: relative;
+        top: 350px;
+    }
+
+    .card-5 {
+        position: relative;
+        top: 450px;
+    }
+
     footer {
         flex-direction: column;
         margin-top: 25px;
@@ -283,22 +313,15 @@ footer .social img:hover {
         display: block;
         padding: 15px;
     }
-
-    .card-1,
-    .card-2,
-    .card-3,
-    .card-4,
-    .card-5 {
-        margin: 550px auto;
-        width: 30%;
-
-    }
-
-    .item-1 {
-        margin: 20px auto;
+    #home-msg{
+        margin-top: 120px;
+        display: flex;
     }
 
 
 
+}
 
+.item-1 {
+    margin: 20px auto;
 }
