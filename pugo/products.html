@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Products</title>
+    <link rel="stylesheet" href="styles/products.css">
 </head>
+
 <body>
     <header>
         <div>
-            <img src="images/p2.png" alt="logo">
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/p2.png" alt="logo">
+            </a>
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li> <a href="personal-site-plan.html">Personal site plan</a></li>
-                <li><a href="products.html">Products</a></li>
-    
-            </ul>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="personal-site-plan.html">Personal Site</a>
+                <a href="products.html">Priducts</a>
+            </nav>
         </nav>
     </header>
+    <hr>
     <main>
-        <section>
+        <section class="objective">
+            <h3>Objectives</h3>
             <p>
-                <h3>Objectives</h3>
-                <i>The objectives of PUGO clothing and shoe boutique are:</i>
+                <p>The objectives of PUGO clothing and shoe boutique are:</p>
                 <div>
                     <ul>
                         <li>To market trendy, clothes and elegant shoes, ranging from sizes 5-13,
@@ -36,22 +41,25 @@
                             and 60% of our running clothes and shoe sales are accompanied by an additional
                             purchase).</li>
                         <li>To achieve a net profit of N2,000,000.00 by year two and N6,000,000 by year five.</li>
-    
+
                     </ul>
-                    
+
                 </div>
                 <br>
-                <aside>
-                    <img src="images/bag9.jpeg" alt="bag9">
-                    <img src="images/shoes1 (5).jpeg" alt="shoes">
-                    <img src="images/bag2.jpeg" alt="bag2">
+                <aside id="products-grid">
+                    <button class="card-01" type="button"><img src="images/bag9.jpeg" alt="bag9">buy now</button>
+                    <img class="card-02" src="images/shoes1 (5).jpeg" alt="shoes">
+                    <img class="card-03" src="images/bag2.jpeg" alt="bag2">
+                
+
+    
                 </aside>
                 <p><strong>Mission</strong></p>
                 <p>
                     The PUGO clothing and shoe boutique mission is to offer quality, name brand clothes, shoes and
                     accessories in
                     an assortment of sizes and styles to accommodate the chic in every woman, man and child.
-    
+
                 </p>
                 <p><strong>Keys to Success</strong></p>
                 <strong>In order to succeed in the women’s shoe industry PUGO clothing and shoe boutique
@@ -72,22 +80,28 @@
                         of service and support.</li>
             </p>
         </section>
-       <div>
-           <img src="images/bag3.jpeg" alt="bag3">
-           <img src="images/bikinis1 (3).jpeg" alt="">
-       </div>
+        <div>
+            <img src="images/bag3.jpeg" alt="bag3">
+            <img src="images/bikinis1 (3).jpeg" alt="">
+        </div>
     </main>
     <footer>
-        <p>
-         Contact Us at <ul>
-             <li> <a href="facebook">Facebook</a></li>
-             <li><a href="instagram">Instagram</a></li>
-             <li><a href="whatsapp">Whatsapp</a></li>
-         </ul> 
-        </p>
-        <h2>Pugo clothingand shoes boutique is the best online shopping for fashions. &copy;2022</h2>
- 
+        <p>Pugo Clothing And Shoes Boutique &copy; 20XX - Uchenna Godstime Owuamanam</p>
+        <p><a href="products.html">Products</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/fb.png" width="100px" alt="facebook icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/ig.jpeg" width="100px" alt="facebook icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twi.png" width="100px" alt="facebook icon">
+            </a>
+
+        </div>
     </footer>
- 
 </body>
+
 </html>
