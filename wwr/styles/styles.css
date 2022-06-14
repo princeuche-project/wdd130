@@ -289,16 +289,17 @@ footer .social img:hover {
 
     #hero-msg {
         margin-top: 0;
+        background-color: #073b4c;
         
     }
 
     #hero-msg h4 {
-        display: none;
+        display: block;
     }
 
-    .home-tittle {
-        font-size: 25px;
-        color: black;
+    .home-title {
+        font-size: 35px;
+        background-color:#073b4c;
     }
 
     .rapid-card,
