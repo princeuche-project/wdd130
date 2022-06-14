@@ -47,13 +47,16 @@ main section {
 }
 
 body {
-    background-color: white;
+    max-width: 1600px;
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+h2 {
+    margin: 0;
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -136,6 +139,7 @@ footer {
 
 footer .social img {
     padding-top: 15px;
+    width: 50px;
 }
 
 footer .social img:hover {
@@ -186,7 +190,7 @@ footer .social img:hover {
 }
 
 .rivers-card {
-    width: 330px;
+    width: 450px;
     margin: 100px auto;
     grid-column: 2/4;
     grid-row: 2/3;
@@ -206,7 +210,7 @@ footer .social img:hover {
     left: 30px;
 }
 
-.rapid-card {
+.rapids-card {
     margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
@@ -247,6 +251,7 @@ footer .social img:hover {
 .home-grid {
     display: grid;
     grid-template-columns: 10fr;
+    grid-template-rows: 10fr;
 
 
 }
@@ -284,6 +289,7 @@ footer .social img:hover {
 
     #hero-msg {
         margin-top: 0;
+        
     }
 
     #hero-msg h4 {
@@ -292,14 +298,17 @@ footer .social img:hover {
 
     .home-tittle {
         font-size: 25px;
-        color: #6f7364;
+        color: black;
     }
 
     .rapid-card,
-    .camping-card,
+    
     .rapid-card {
         margin: 50px auto;
-        width: 60%;
+        width: 40%;
+    }
+    .camping-card{
+        width: 80%;
     }
 
     #background {
