@@ -13,20 +13,21 @@ p {
     display: flex;
     flex-wrap: nowrap;
 }
-hr{
-width: 100%;
-height: 3px;
-margin: 35px 0;
-background: #073b4c;
+
+hr {
+    width: 100%;
+    height: 3px;
+    margin: 35px 0;
+    background: #073b4c;
 }
 
 #river-msg h1,
-h2{
+h2 {
     background-color: #073b4c;
     color: white;
 
 }
-    
+
 
 #river-grid h2 {
     font-size: 20px;
@@ -465,6 +466,16 @@ footer .social img:hover {
     footer .social img {
         padding-top: 15px;
         width: 50px;
+    }
+
+    #river-msg img, #mood-nature img {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    #river-msg p, #mood-nature p {
+       padding:  15px auto;
+       
     }
 
 }
