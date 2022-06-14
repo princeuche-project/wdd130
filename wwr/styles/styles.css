@@ -325,5 +325,9 @@ footer .social img:hover {
     footer {
         margin-top: 25px;
     }
+    footer .social img {
+        padding-top: 15px;
+        width: 50px;
+    }
 
 }
