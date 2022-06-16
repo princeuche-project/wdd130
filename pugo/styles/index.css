@@ -134,7 +134,7 @@ section h3 {
 #img-grid {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     margin-bottom: 50px auto;
     position: relative;
     z-index: -1;
