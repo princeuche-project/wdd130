@@ -334,7 +334,7 @@ footer .social img:hover {
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 70%;
+        left: 80%;
         font-style: italic;
     }
     #paragraph .card{
@@ -352,6 +352,8 @@ footer .social img:hover {
         color: white;
         font-style: oblique;
         font-size: 1em;
+        position: relative;
+        
     }
 
 
