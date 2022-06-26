@@ -11,9 +11,48 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-/* Logo designing and padding*/
+/*the header design*/
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0096c7;
+    top: 0;
+    width: 100%;
+}
+
+header nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.active {
+    background-color: #fbb13c;
+}
+nav a:hover {
+    background-color: #fbb13c;
+    color: #073b4c;
+}
+
+/* the home images design*/
+#home-img-main {
+    background-image: url(boutique3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#home-img img {
+    width: 350px;
+    height: 300px;
+}
+
+/* the logo design*/
 #logo-link {
     padding-bottom: 20px;
     justify-self: center;
@@ -25,154 +64,127 @@ body {
 .logo {
     width: 60px;
     border: 4px solid #fbb13c;
-    position: fixed;
     overflow: hidden;
     top: 0;
 }
 
-/* Navigator designing */
-.active {
-    background-color: #fbb13c;
+/* the home msg design*/
+.home-msg {
+    display: grid;
+    grid-template-columns: 150px 3fr;
+    grid-template-rows: 150px 150px;
 }
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 20px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #0096c7;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-}
-
-nav a:hover {
-    background-color: #fbb13c;
+.home-msg h1,
+.text {
     color: #073b4c;
-}
-
-/* The header design*/
-
-header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color: #0096c7
-}
-
-#paragraph {
-    margin: 20px;
-    padding: 5px;
-}
-
-section h3 {
-    margin: 100px;
-}
-
-/* the home img-main desgin*/
-#home-img-main {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
-
-#home-img {
-    grid-column: 1/4;
-    grid-row: 1/3;
-}
-
-/* the home-msg designing*/
-
-#home-msg {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    align-self: center;
-    color: #0096c7;
-    font-size: 1.2em;
-    text-shadow: 5px 5px 10px #fbb13c;
-}
-
-/* designing the item-1*/
-.item-1 {
-    max-width: 300px;
-    float: right;
-    margin: auto;
+    font-size: 2em;
+    grid-column: 3/3;
+    align-items: left;
     position: relative;
-    z-index: -1;
-    bottom: 20px;
+    right: 300px;
+    bottom: 100px;
+    text-shadow: 5px 5px #fbb13c;
+}
+/*designing the paragraph*/
+#paragraph .item-1 {
+    float: right;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#paragraph .main-content{
+    padding: 25px;
+    
+    
+    font-style: oblique;
+    font-size: 1em;
+}
+.item-text{
+    color: white;
+    background: #073b4c;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    border: 4px solid #073b4c;
 }
 
-.price {
-    color: #073b4c;
-    font-size: 22px;
+#paragraph .item-1 img {
+    width: 300px;
 }
 
-.item-1 button {
+#paragraph ul {
+    display: grid;
+    justify-content: end;
+    padding-right: 100px;
+    margin-right: 0 auto;
+    color: #fbb13c;
+    background-color: #073b4c
+}
+#paragraph .card {
+    display: grid;
+    justify-items: start;
+    position: relative;
+    bottom: 170px;
+    left: 50px;
+    padding: 50px;
+}
+#paragraph .card img {
+    width: 300px;
+}
+#paragraph .item-1 button,
+#paragraph .card button {
     outline: 0;
     padding: 12px;
-    color: #fbb13c;
+    color: white;
     background-color: #073b4c;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 13px;
-    position: relative;
 }
-
+#paragraph .card button:hover,
 .item-1 button:hover {
-    opacity: 0.7;
+    color: white;
+    opacity: 0.6;
 }
-
-/* designing the card-1 to card-5 */
 #img-grid {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
     margin-bottom: 50px auto;
     position: relative;
-    z-index: -1;
+   
 }
-
-
 .card-1 {
-    grid-column: 1/3;
+    grid-column: 2/3;
     position: relative;
-
-    bottom: 30px;
-
+    top: 100px;
+    padding: 15px;
+    right: 70px;
 }
-
-.card-5 {
-    grid-column: 9/12;
-}
-
-.card-4 {
-    grid-column: 7/9;
-    width: 230px;
+.card-2 {
+    grid-column: 4/5;
     position: relative;
-
-    bottom: 100px;
+    top: 100px;
+    padding: 15px;
+    right: 70px;
 }
 
 .card-3 {
-    grid-column: 5/7;
-}
-
-.card-2 {
-    grid-column: 3/5;
+    grid-column: 6/8;
     position: relative;
-
-    bottom: 80px;
-
+    top: 100px;
+    padding: 15px;
+    right: 70px;
 }
-
+.card-4 {
+    grid-column: 8/10;
+    width: 230px;
+    position: relative;
+    top: 100px;
+    padding: 15px;}
+.card-5 {
+    grid-column: 10/13;
+    position: relative;
+    top: 100px;
+    padding: 15px;
+}
 .card-1,
 .card-2,
 .card-3,
@@ -184,7 +196,6 @@ section h3 {
     width: 150px;
     height: 100px;
 }
-
 .card-1 button,
 .card-2 button,
 .card-3 button,
@@ -215,14 +226,8 @@ section h3 {
 .card-5:hover {
     opacity: 0.7;
 }
-
-#background {
-    background-color: #fbb13c;
-}
-
-/* designing the footer*/
 footer {
-    padding: 25px 50px;
+    
     background-color: #073b4c;
     display: flex;
     justify-content: space-around;
@@ -255,6 +260,7 @@ footer .social img:hover {
     transform: scale(1.1);
 }
 
+
 @media screen and (max-width: 900px) {
 
 
@@ -262,13 +268,16 @@ footer .social img:hover {
         display: block;
         height: auto;
         width: 50%;
-        margin: 500px auto;
+        margin: 450px auto;
+        position: relative;
+        bottom: 300px;
+        padding: 100px auto;
+        
     }
 
 
     nav {
         flex-direction: column;
-        position: fixed;
         overflow: hidden;
         top: 0;
         width: 100%;
@@ -277,20 +286,26 @@ footer .social img:hover {
 
     .card-1 {
         position: relative;
-        bottom: 450px;
+        margin-bottom:  100px;
+        width: 100%;
+        left: 40px;
+        display: inline-table;    
     }
 
     .card-2 {
         position: relative;
-        
+        width: 100%;
         left: 20px;
-        top: px;
+        padding-bottom: 200px;
+        
+        
 
     }
 
     .card-3 {
         position: relative;
         top: 350px;
+        left: 40px;
     }
 
     .card-4 {
@@ -301,6 +316,7 @@ footer .social img:hover {
     .card-5 {
         position: relative;
         top: 450px;
+        
     }
 
     footer {
@@ -313,15 +329,32 @@ footer .social img:hover {
         display: block;
         padding: 15px;
     }
-    #home-msg{
+    .home-msg{
         margin-top: 120px;
         display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 70%;
+        font-style: italic;
+    }
+    #paragraph .card{
+        position: relative;
+        bottom: 20%;
+        width: 50%;
+    }
+    #paragraph ul{
+        display: inline-block;
+        padding: 50px;
+    }
+    #paragraph .main-content{
+        padding: 25px;
+        background: #073b4c;
+        color: white;
+        font-style: oblique;
+        font-size: 1em;
     }
 
 
 
 }
 
-.item-1 {
-    margin: 20px auto;
-}
