@@ -195,6 +195,7 @@ nav a:hover {
     font-family: 'Courier New', Courier, monospace;
     width: 150px;
     height: 100px;
+    
 }
 .card-1 button,
 .card-2 button,
@@ -297,9 +298,6 @@ footer .social img:hover {
         width: 100%;
         left: 20px;
         padding-bottom: 200px;
-        
-        
-
     }
 
     .card-3 {
@@ -352,8 +350,10 @@ footer .social img:hover {
         color: white;
         font-style: oblique;
         font-size: 1em;
-        position: relative;
-        
+    }
+    .item-1 h3, p{
+        color: #fbb13c;
+
     }
 
 
