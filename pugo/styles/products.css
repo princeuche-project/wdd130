@@ -60,6 +60,7 @@ nav a:hover {
     position: relative;
     bottom: 70px;
     font-style: italic;
+    color: #073b4c;
 }
 
 #objectives li {
@@ -91,8 +92,8 @@ hr {
 }
 
 #objectives img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     display: inline-flex;
     margin: 30px auto;
     padding: 15px;
@@ -106,12 +107,12 @@ hr {
     place-items: center;
 }
 
-.image-grid .card-1
+.image-grid .card-01
  {
-   grid-column: 8/9; 
+   grid-column: 9/9; 
    grid-row: 2/5;
    padding: 20px;
-   width: 300px;
+   width: 350px;
    position: relative;
    top: 5px;
    
@@ -125,14 +126,11 @@ hr {
 .image-grid ul{
     grid-column: 1/5;
     grid-row: 2/3;
+    color: #0096c7;
 }
 
-.image-grid .card-1 button,
-.card-2 button {
-    width: 30px;
-}
 
-.image-grid .card-1 button,
+.image-grid .card-01 button,
 .card-2 button,
 .card-3 button,
 .card-4 button,
@@ -150,7 +148,7 @@ hr {
     font-size: 13px;
 }
 
-.image-grid .card-1 button :hover,
+.image-grid .card-01 button:hover,
 .card-2 button:hover,
 .card-3 button:hover,
 .card-4 button:hover,
@@ -164,7 +162,7 @@ hr {
     transform: scale(1.1);
 }
 
-.image-grid .card-1 img,
+.image-grid .card-01 img,
 .card-2 img,
 .card-3 img,
 .card-4 img,
@@ -188,6 +186,7 @@ hr {
 
 .mission ul {
     grid-column: 3/3;
+    color: #073b4c;
 }
 
 .mission .card-3 {
@@ -201,7 +200,7 @@ hr {
 }
 
 .card-3 img {
-    width: 200px;
+    width: 300px;
 }
 
 #img-grid {
@@ -215,10 +214,11 @@ hr {
 }
 
 .card-1 {
-    grid-column: 8/9;
+    grid-column: 9/9;
     position: relative;
-    bottom: 70px;
+    bottom: 20px;
     left: 100px;
+    width: 300px;
 }
 
 .card-4 {
@@ -226,26 +226,30 @@ hr {
     grid-row: 1/2;
     position: relative;
     bottom: 30px;
-    left: 100px;
+    left: 150px;
+    width: 300px;
 }
 
 .card-03 {
     grid-column: 4/5;
     grid-row: 1/2;
     position: relative;
-
+    width: 300px;
     left: 50px;
+    
 
 }
 
 .card-5 {
     grid-column: 2/3;
     grid-row: 1/2;
+    width: 300px;
+    
 
 }
 
 footer {
-    padding: 25px 50px;
+    
     background-color: #073b4c;
     display: flex;
     justify-content: space-around;
@@ -284,7 +288,7 @@ footer .social img:hover {
         height: auto;
     }
 
-    .image-grid .card-1,
+    .image-grid .card-01,
     .card-2,
     .card-3,
     .card-4,
@@ -341,7 +345,7 @@ footer .social img:hover {
     }
     #objectives img{
         width: 40%;
-        height: 130px;
+        height: 250px;
     }
     .mission .card-3{
         width: 50%;
@@ -350,14 +354,31 @@ footer .social img:hover {
         margin: 50px auto;
         padding-left: 200px;
         padding-top: 200px;
-       
-        
-        
     }
     .image-grid .card-2{
-        position: relative;
-        right: 40px;
+       width: 90%;
+        margin: 30px;
+        color: white;    
     }
+    .image-grid{
+        display: inline-block;
+         width: 100%;
+         background-color: #073b4c;
+        background-position: 10%;
+    }
+    .image-grid .card-01{
+         width: 90%;
+         margin: 30px;
+         color: white;
+       
+    }
+    .image-grid ul{
+        color: #fbb13c;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 10px;
+        
+    };
+   
 
 
 }
