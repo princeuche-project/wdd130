@@ -304,27 +304,29 @@ footer .social img:hover {
     .card-4{
         position: relative;
        left: 300px;
+       bottom: 59px;
        
      
        
     }
     .card-5{
        position: relative;
-       right: 200px;
+       right: 150px;
        bottom: 70px;
        
 
     }
     .card-1{
         position: relative;
-       left: 10px;
+       left: 50px;
+       bottom: 60px;
        
      
        
     }
     .card-03{
        position: relative;
-       right: px;
+       left: 130px;
        bottom: 70px;
        
 
