@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to create a tab</title>
+    <link rel="stylesheet" href="styles/wen-component.css">
+</head>
+
+<body>
+    <h1>How to create toggleable tabs</h1>
+    <h2>Click on each of the tab to view the content.</h2>
+    <!--tab links-->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">About Us</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Services</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Send Us an Email</button>
+
+    </div>
+    <!--Tap Content-->
+    <div id="London" class="tabcontent">
+        <h3>About Us</h3>
+        <p>Pugo clothing and shoes is organized as a sole proprietorship in the name of <strong>Prince Uchenna Godstime
+                Owuamanam</strong>
+            Pugo will be located at Alaba Internatinal market Lagos plaza temporarily, until it is vast enough to expand
+            into store of it own, located in Eastern and Southen Nigeria.
+        </p>
+
+    </div>
+    <div id="Paris" class="tabcontent">
+        <h3>Services</h3>
+        <p>
+            The hours of operation will be Monday – Friday 8 a.m. – 6 p.m., Saturday 10 a.m. – 8 p.m., and closed on
+            Sundays. <br>
+            Customers will be able to purchase directly from our website and VIP Showcase Events. There will be extended
+            special <br>
+            hours designated during Christmas/festive holiday shopping season.<br>
+            <br>
+            All merchandise will be purchased according to the company’s mission and customer focus of shoes ranging
+            from sizes <br>
+            5-13, clothes and accessories. Management will rely on customer feedback, suggestions, and sales reports to
+            <br>
+            introduce or eliminate certain brands, styles and sizes.
+        </p>
+
+    </div>
+    <div id="Tokyo" class="tabcontent">
+        <h3>Send Us an Email</h3>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit" onclick="feedback()">Send your message</button>
+                </li>
+
+            </ul>
+
+        </form>
+
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            // declare all variables
+            var i, tabcontent, tablinks;
+            //get all element with class and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            // get all element with class tablinks and remove the class active
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("active", "");
+
+            }
+
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += "active";
+        }
+    </script>
+</body>
+
+</html>
