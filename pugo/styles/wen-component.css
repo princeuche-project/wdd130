@@ -1,13 +1,20 @@
 /* style the tab*/
 h1, h2{
     text-align: center;
-    background-color: #999;
+    background-color: #073b4c;
+    color: white;
+    box-shadow: 6px 6px 7px 5px #fbb13c;
+    
 }
 
 .tab {
     overflow: hidden;
     border: 1px solid green;
-    background-color: steelblue;
+    background-color: #0096c7;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
 }
 
 .tab button {
@@ -16,8 +23,9 @@ h1, h2{
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 15px;
+    padding: 20px 17px;
     transition: 0.4s;
+    
 }
 
 .tab button:hover {
@@ -34,6 +42,14 @@ h1, h2{
     padding: 10px 12px;
     border: 2px solid blue;
     border-top: none;
+}
+#London, #Paris{
+    background-color: #073b4c;
+    color: white;
+    box-shadow: 6px 6px 7px 5px #fbb13c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;   
+    font-style: italic; 
 }
 
 #Tokyo {
