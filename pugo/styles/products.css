@@ -103,30 +103,32 @@ hr {
     position: relative;
     bottom: 50px;
 }
-.image-grid{
+
+.image-grid {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px 150px 150px;
     place-items: center;
 }
 
-.image-grid .card-01
- {
-   grid-column: 9/9; 
-   grid-row: 2/5;
-   padding: 20px;
-   width: 350px;
-   position: relative;
-   top: 5px;
-   
-    
+.image-grid .card-01 {
+    grid-column: 9/9;
+    grid-row: 2/5;
+    padding: 20px;
+    width: 350px;
+    position: relative;
+    top: 5px;
+
+
 }
-.image-grid .card-2{
-    grid-column:6/7 ;
+
+.image-grid .card-2 {
+    grid-column: 6/7;
     grid-row: 2/5;
     width: 300px;
 }
-.image-grid ul{
+
+.image-grid ul {
     grid-column: 1/5;
     grid-row: 2/3;
     color: white;
@@ -188,9 +190,9 @@ hr {
     grid-template-columns: 1fr 1fr 3fr;
     grid-template-rows: 1fr;
     justify-content: center;
-    background-color:#073b4c;
+    background-color: #073b4c;
     color: #fbb13c;
-    
+
 }
 
 .mission ul {
@@ -246,7 +248,7 @@ hr {
     position: relative;
     width: 300px;
     left: 50px;
-    
+
 
 }
 
@@ -254,12 +256,12 @@ hr {
     grid-column: 2/3;
     grid-row: 1/2;
     width: 300px;
-    
+
 
 }
 
 footer {
-    
+
     background-color: #073b4c;
     display: flex;
     justify-content: space-around;
@@ -293,7 +295,9 @@ footer .social img:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #img-grid, .mission {
+
+    #img-grid,
+    .mission {
         display: block;
         height: auto;
     }
@@ -311,36 +315,31 @@ footer .social img:hover {
         display: inline-block;
         align-self: center;
     }
-    .card-4{
-        position: relative;
-       left: 300px;
-       bottom: 59px;
-       
-     
-       
-    }
-    .card-5{
-       position: relative;
-       right: 150px;
-       bottom: 70px;
-       
 
-    }
-    .card-1{
+    .card-4 {
         position: relative;
-       left: 50px;
-       bottom: 60px;
-       
-     
-       
+        left: 300px;
+        bottom: 59px
     }
-    .card-03{
-       position: relative;
-       left: 130px;
-       bottom: 70px;
-       
 
+    .card-5 {
+        position: relative;
+        right: 150px;
+        bottom: 70px;
     }
+
+    .card-1 {
+        position: relative;
+        left: 50px;
+        bottom: 60px;
+    }
+
+    .card-03 {
+        position: relative;
+        left: 130px;
+        bottom: 70px;
+    }
+
     nav,
     footer {
         flex-direction: column;
@@ -350,16 +349,19 @@ footer .social img:hover {
         display: block;
         padding: 15px;
     }
-    #objectives ul{
+
+    #objectives ul {
         width: 100%;
         float: left;
         padding: 30px;
     }
-    #objectives img{
+
+    #objectives img {
         width: 40%;
         height: 250px;
     }
-    .mission .card-3{
+
+    .mission .card-3 {
         width: 50%;
         height: 10%;
         display: block;
@@ -367,30 +369,36 @@ footer .social img:hover {
         padding-left: 200px;
         padding-top: 200px;
     }
-    .image-grid .card-2{
-       width: 90%;
+
+    .image-grid .card-2 {
+        width: 90%;
         margin: 30px;
-        color: white;    
+        color: white;
     }
-    .image-grid{
+
+    .image-grid {
         display: inline-block;
-         width: 100%;
-         background-color: #073b4c;
+        width: 100%;
+        background-color: #073b4c;
         background-position: 10%;
     }
-    .image-grid .card-01{
-         width: 90%;
-         margin: 30px;
-         color: white;
-       
+
+    .image-grid .card-01 {
+        width: 90%;
+        margin: 30px;
+        color: white;
+
     }
-    .image-grid ul{
+
+    .image-grid ul {
         color: #fbb13c;
         font-family: Tiro Bangla serif;
         font-weight: 10px;
-        
-    };
-   
+
+    }
+
+    ;
+
 
 
 }
