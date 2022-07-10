@@ -4,7 +4,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tiro Bangla serif;
 }
 
 /* Logo designing and padding*/
@@ -386,7 +386,7 @@ footer .social img:hover {
     }
     .image-grid ul{
         color: #fbb13c;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Tiro Bangla serif;
         font-weight: 10px;
         
     };
