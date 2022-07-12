@@ -4,7 +4,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    font-family: Tiro Bangla serif;
+    font-family:  Tiro Tamil, serif;
 }
 
 /* Logo designing and padding*/
@@ -77,6 +77,7 @@ h3 {
     background-color: #073b4c;
     color: white;
     box-shadow: 4px 4px 4px 4px #fbb13c;
+    font-family:  Tiro Tamil, serif;
 }
 
 h2 {
