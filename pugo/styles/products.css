@@ -4,7 +4,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    font-family:  Tiro Tamil, serif;
+    font-family: 'Tiro Bangla', serif;
 }
 
 /* Logo designing and padding*/
@@ -77,7 +77,7 @@ h3 {
     background-color: #073b4c;
     color: white;
     box-shadow: 4px 4px 4px 4px #fbb13c;
-    font-family:  Tiro Tamil, serif;
+    font-family: 'Tiro Tamil', serif;
 }
 
 h2 {
@@ -86,6 +86,7 @@ h2 {
     color: white;
     margin: 50px auto;
     box-shadow: 4px 4px 4px 4px #fbb13c;
+    font-family: 'Tiro Tamil', serif;
 }
 
 hr {
@@ -278,7 +279,7 @@ footer a {
     color: white;
     text-decoration: none;
     margin: 20px auto;
-    padding: 15px auto;
+    padding: 15px;
 }
 
 footer a:hover {
@@ -393,13 +394,7 @@ footer .social img:hover {
 
     .image-grid ul {
         color: #fbb13c;
-        font-family: Tiro Bangla serif;
-        font-weight: 10px;
-
+        font-family: 'Tiro Tamil', serif;
+        font-weight: 100;
     }
-
-    ;
-
-
-
 }
