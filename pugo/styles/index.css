@@ -79,7 +79,7 @@ nav a:hover {
     color: #073b4c;
     font-size: 2em;
     grid-column: 3/3;
-    align-items: left;
+    align-items: end;
     position: relative;
     right: 300px;
     bottom: 100px;
@@ -113,7 +113,7 @@ nav a:hover {
     display: grid;
     justify-content: end;
     padding-right: 100px;
-    margin-right: 0 auto;
+    margin-right:  auto;
     color: #fbb13c;
     background-color: #073b4c
 }
@@ -148,7 +148,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
     grid-template-rows: 150px 150px 150px 150px;
-    margin-bottom: 50px auto;
+    margin-bottom: 50px;
     position: relative;
    
 }
@@ -245,7 +245,7 @@ footer a {
     color: white;
     text-decoration: none;
     margin: 20px auto;
-    padding: 15px auto;
+    padding: 15px;
 }
 
 footer a:hover {
@@ -273,7 +273,7 @@ footer .social img:hover {
         margin: 450px auto;
         position: relative;
         bottom: 300px;
-        padding: 100px auto;
+        padding: 100px;
         
     }
 
